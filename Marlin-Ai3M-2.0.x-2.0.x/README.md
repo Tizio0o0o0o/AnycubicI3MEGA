@@ -1,33 +1,6 @@
-# Anycubic i3 Mega / Mega-S Marlin 2.0.x
+# Anycubic i3 Mega / Marlin 2.0.x
 
-[![Open Issues](https://img.shields.io/github/issues-raw/davidramiro/Marlin-Ai3M-2.0.x.svg?style=flat)](https://github.com/davidramiro/Marlin-Ai3M-2.0.x/issues?q=is%3Aopen+is%3Aissue) [![Closed Issues](https://img.shields.io/github/issues-closed-raw/davidramiro/Marlin-Ai3M-2.0.x.svg?style=flat)](https://github.com/davidramiro/Marlin-Ai3M-2.0.x/issues?q=is%3Aissue+is%3Aclosed) [![Travis CI](https://api.travis-ci.org/davidramiro/Marlin-Ai3M-2.0.x.svg?branch=bugfix-2.0.x)](https://travis-ci.org/davidramiro/Marlin-Ai3M-2.0.x) [![License](https://img.shields.io/github/license/davidramiro/Marlin-Ai3M-2.0.x.svg?style=flat)](https://github.com/davidramiro/Marlin-Ai3M-2.0.x/blob/master/LICENSE)
-
-## Beta build - use with caution! But ... Why use this?
-
-While the i3 Mega is a great printer for its price and produces fantastic results in stock, there are some improvements and additional features that this firmware provides:
-
-- Many people have issues getting the Ultrabase leveled perfectly, using Manual Mesh Bed Leveling the printer generates a mesh of the flatness of the bed and compensates for it on the Z-axis for perfect prints without having to level with the screws.
-- Much more efficient bed heating by using PID control. This uses less power and holds the temperature at a steady level. Highly recommended for printing ABS.
-- Fairly loud fans, while almost every one of them is easily replaced, the stock FW only gives out 9V instead of 12V on the parts cooling fan so some fans like Noctua don't run like they should. This is fixed in this firmware.
-- Even better print quality by adding Linear Advance, S-Curve Acceleration and some tweaks on jerk and acceleration.
-- Thermal runaway protection: Reducing fire risk by detecting a faulty or misaligned thermistor.
-- Very loud stock stepper motor drivers, easily replaced by Watterott or FYSETC TMC2208. To do that, you'd usually have to flip the connectors on the board, this is not necessary using this firmware.
-- No need to slice and upload custom bed leveling tests, test it with a single GCode command
-- Easily start an auto PID tune or mesh bed leveling via the special menu (insert SD card, select special menu and press the round arrow)
-- Filament change feature enabled: Switch colors/material mid print (instructions below) and control it via display.
-- The filament runout, pause and stop functionality have been overhauled and improved: The hotend now parks and retracts (on pause or stop) and purges automatically (on resume).
-- Added `M888` cooldown routine for the Anycubic Ultrabase (EXPERIMENTAL): This is meant to be placed at the end Gcode of your slicer. It hovers over the print bed and does circular movements while running the fan. Works best with custom fan ducts.
-  - Optional parameters:
-  - `T<temperature>`: Target bed temperature (min 15°C), 30°C if not specified (do not set this under room temperature)
-  - `S<fan speed>`: Fan speed between 0 and 255, full speed if not specified
-  - e.g. `M888 S191 T25`: run the fan at 75% until the bed has cooled down to 25°C
-
-## Known issues:
-
-- Power outage support is not included
-- Estimated print times from your slicer might be slightly off.
-- Special characters on any file or folders name on the SD card will cause the file menu to freeze. Simply replace or remove every special character (Chinese, Arabic, Russian, accents, German & Scandinavian umlauts, ...) from the name. Symbols like dashes or underscores are no problem.
-  **Important note: On the SD card that comes with the printer there is a folder with Chinese characters in it by default. Please rename or remove it.**
+## Beta build - use with caution!
 
 ## Marlin 2.0
 
