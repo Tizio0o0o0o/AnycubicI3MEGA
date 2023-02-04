@@ -1,12 +1,8 @@
-This is my current firmware, As you can see this is not edited by me, thanks to davidramiro for doing it and introducing me to this firmware editing world.
-
-# Anycubic i3 Mega / Mega-S Marlin 2.0.x by davidramiro
+# Anycubic i3 Mega / Mega-S Marlin 2.0.x
 
 [![Open Issues](https://img.shields.io/github/issues-raw/davidramiro/Marlin-Ai3M-2.0.x.svg?style=flat)](https://github.com/davidramiro/Marlin-Ai3M-2.0.x/issues?q=is%3Aopen+is%3Aissue) [![Closed Issues](https://img.shields.io/github/issues-closed-raw/davidramiro/Marlin-Ai3M-2.0.x.svg?style=flat)](https://github.com/davidramiro/Marlin-Ai3M-2.0.x/issues?q=is%3Aissue+is%3Aclosed) [![Travis CI](https://api.travis-ci.org/davidramiro/Marlin-Ai3M-2.0.x.svg?branch=bugfix-2.0.x)](https://travis-ci.org/davidramiro/Marlin-Ai3M-2.0.x) [![License](https://img.shields.io/github/license/davidramiro/Marlin-Ai3M-2.0.x.svg?style=flat)](https://github.com/davidramiro/Marlin-Ai3M-2.0.x/blob/master/LICENSE)
 
-## Beta build - use with caution!
-
-## Why use this?
+## Beta build - use with caution! But ... Why use this?
 
 While the i3 Mega is a great printer for its price and produces fantastic results in stock, there are some improvements and additional features that this firmware provides:
 
