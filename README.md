@@ -9,16 +9,29 @@ The Anycubic i3 Mega is a solid, metal-framed 3D printer that comes mostly assem
 ## Technical Specifications
 
 ● Printing Technology: FDM (Fused Deposition Modeling)
+
 ● Layer Resolution: 0.05-0.3 mm
+
 ● Positioning Accuracy: X/Y 0.0125mm Z 0.002mm
+
 ● Supported Print Materials: PLA, ABS, HIPS, Wood
+
 ● Print Speed: 20~100mm/s(recommended speed 60%)
+
 ● Nozzle Diameter: 0.4 mm/1.75 mm
+
 ● Build Size: 210 x 210 x 205mm
+
 ● Operational Extruder Temperature: Max 260ºC
+
 ● Operational Print Bed Temperature: Max 110ºC
+
 ● Printer Dimensions: 405mm x 410mm x453mm
+
 ● Input Formats: .STL, .OBJ, .DAE, .AMF
+
 ● Ambient Operating Temperature: 8ºC - 40ºC
+
 ● Connectivity SD Card, USB Port (expert users only)
+
 ● Package Weight: 16.5kg
