@@ -485,10 +485,9 @@
   #define  DEFAULT_Ki 0.70
   #define  DEFAULT_Kd 63.51
   /* Default settings
-  
-  #define  DEFAULT_Kp ?
-  #define  DEFAULT_Ki ?
-  #define  DEFAULT_Kd ?
+  #define  DEFAULT_Kp 15.94
+  #define  DEFAULT_Ki  1.17
+  #define  DEFAULT_Kd 54.19
   
   Autotune results
   
