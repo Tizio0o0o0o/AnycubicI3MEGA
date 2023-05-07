@@ -161,7 +161,7 @@
 /**
  * Some Anycubic machines have Z1 and Z2 swapped to save on wiring.
  */
-//#define SWAP_Z_MOTORS
+#define SWAP_Z_MOTORS
 
 // Name displayed in the LCD "Ready" message and Info menu
 #define CUSTOM_MACHINE_NAME "ANYCUBIC I3 MEGA"
