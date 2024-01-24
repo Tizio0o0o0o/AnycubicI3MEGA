@@ -1,11 +1,15 @@
 # Custom firmware for my Anycubic I3 MEGA
 
-This repository houses custom firmware for the Anycubic i3 Mega 3D printer. The firmware is based on Marlin, a popular open-source firmware for RepRap 3D printers. It has been extensively modified to improve print quality, stability, and user experience.
+This repository houses original and custom firmware for the Anycubic i3 Mega 3D printer. The custom one is based on Marlin, a popular open-source firmware for 3D printers. It has been modified to improve print quality, stability, user experience and <strong>to be adapted to my modified printer needs.</strong>
 
 ## Anycubic i3 Mega
 
-The Anycubic i3 Mega is a popular FDM (Fused Deposition Modeling) 3D printer that is known for its high quality prints, ease of use, and affordable price. It is a great choice for beginners and experienced users alike.
+The Anycubic i3 Mega is a popular FDM (Fused Deposition Modeling) 3D printer that is known for its high quality prints, ease of use, and affordable price. It is a great choice for beginners and experienced users alike. The stock firmware is ok, but modifying it will improve a lot the printer capabilities and safety.
 
-## Disclaimer
+## [!Disclamer]
 
-<strong>Use this firmware at your own risk.</strong> Even if uploading back the original firmware is not difficult, <strong>changing the firmware to a working printer is a good idea if you don't know exactly what you are doing.</strong>
+Use this firmware at your own risk. Modifying the firmware to a working printer is a bad idea if you don't know exactly what you are doing.
+
+## License
+
+Marlin is published under the GPL license and following marlin developers and philosophy, every file in this repo is under the same license
