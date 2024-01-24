@@ -1,25 +1,11 @@
 # Custom firmware for my Anycubic I3 MEGA
 
-Use this firmware at your own risk. Even if uploading back the original firmware is not difficult, I do not think that changing the firmware to a working printer is a good idea if you don't know exactly what you are doing.
+This repository houses custom firmware for the Anycubic i3 Mega 3D printer. The firmware is based on Marlin, a popular open-source firmware for RepRap 3D printers. It has been extensively modified to improve print quality, stability, and user experience.
 
-## Anycubic I3 Mega
+## Anycubic i3 Mega
 
-The Anycubic i3 Mega is a solid, metal-framed 3D printer that comes mostly assembled. Assembly is easy and takes only a few minutes. It is capable of producing high quality prints. Stable construction and fine layer resolution down to 0.05 mm. It supports multiple filament materials, including PLA, ABS, High Impact Polystyrene (HIPS) and wood.
+The Anycubic i3 Mega is a popular FDM (Fused Deposition Modeling) 3D printer that is known for its high quality prints, ease of use, and affordable price. It is a great choice for beginners and experienced users alike.
 
-## Technical Specifications
+## Disclaimer
 
-<ul>
-  <li>Printing Technology: FDM (Fused Deposition Modeling)</li>
-  <li>Layer Resolution: up to 0.05 mm</li>
-  <li>Positioning Accuracy: X/Y 0.0125mm Z 0.002mm</li>
-  <li>Tested Print Materials: PLA, ABS, TPU, PETG</li>
-  <li>Print Speed: 20~100mm/s(recommended speed 70mm/s)</li>
-  <li>Testes nozzle Diameter: 0.25-0.4-0.8 mm/1.75 mm</li>
-  <li>Build Size: 218 x 218 x 200mm</li>
-  <li>Operational Extruder Temperature: up to 260ºC</li>
-  <li>Operational Print Bed Temperature: up to 110ºC</li>
-  <li>Printer Dimensions: 405mm x 410mm x453mm</li>
-  <li>Ambient Operating Temperature: 8ºC - 40ºC</li>
-  <li>Connectivity SD Card, USB Port</li>
-  <li>Package Weight: 16.5kg</li>
-</ul>
+<strong>Use this firmware at your own risk.</strong> Even if uploading back the original firmware is not difficult, <strong>changing the firmware to a working printer is a good idea if you don't know exactly what you are doing.</strong>
