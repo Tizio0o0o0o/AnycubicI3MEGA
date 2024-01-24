@@ -12,4 +12,4 @@ Use this firmware at your own risk. Modifying the firmware to a working printer 
 
 ## License
 
-Marlin is published under the <a href="https://github.com/Tizio0o0o0o/AnycubicI3MEGA/blob/default/LICENSE">GNU license</a> and following marlin developers philosophy, every file in this repo is under the same license
+Marlin is published under the <a href="https://github.com/Tizio0o0o0o/AnycubicI3MEGA/blob/default/LICENSE">GPL license</a> and following marlin developers philosophy, every file in this repo is under the same license
